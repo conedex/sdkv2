@@ -1,7 +1,10 @@
 {
-  "name": "sdk",
+  "name": "@conedex/sdkv2",
   "version": "0.1.0",
-  "private": true,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "workspaces": [
     "packages/*"
   ],
